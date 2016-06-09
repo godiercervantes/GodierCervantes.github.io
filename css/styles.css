@@ -1,0 +1,262 @@
+h1,h2,h3,h4,h5,h6,figure,p,{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.container-fluid {
+    width: 100%;
+    background-size: cover;
+}
+#Encabezado {
+    width: 920px;
+    height: 180px;
+    display: inline-flex;
+    align-content: flex-start;
+   
+}
+#Encabezado figure {
+    margin: 0;
+}
+#Contenido {
+
+}
+#Nota-Importante {
+    height: 460px;
+    width: 450px;
+    margin: 20px 0; 
+    box-shadow: 0 0 15px grey ;
+}
+#Nota-Importante img{
+    border: 8px solid white;
+
+}
+#Notas-Secundarias{
+    min-height: 300px;
+    width: 600px;
+    display: inline-block;
+}
+#Notas-Secundarias article{
+    display: flex;
+    background-image: url(../images/separacion-notas.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+}
+.imagen-nota-secundaria{
+    position: relative;
+}
+
+.imagen-nota-secundaria span{
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    padding: 5px 10px;
+    background-color: lightgray;
+}
+
+.titulo-nota-secundaria{
+    line-height: 0.9em;
+    font-variant: small-caps;
+
+}
+.intro-nota-secundaria {
+    padding: 20px 0px;
+    text-align: justify;
+}
+.cuerpo-nota-secundaria {
+    padding: 0px 20px;
+}
+#publicidad {
+    min-height: 300px;
+    width: 320px;
+    display: inline-block;
+    margin-bottom: 50px;    
+}
+#publicidad img {
+    margin: 5px;
+}
+
+#Pie {
+    height: 350px;
+    margin-top: 50px;
+}
+#menu {
+    height: 50px;
+    width: 920px;
+    display: block;
+    text-decoration-color: white;
+    justify-content: center;    
+}
+#menu ul {
+    padding: 0;
+   
+    width: 920px;
+    margin: 0 50px;
+}
+
+#menu li { 
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font: inherit;
+}
+#menu>ul>li {
+    display: inline-block;
+}
+#menu>ul>li>a {
+    padding: 10px;   
+   
+}       
+#menu li ul {
+    display: none;
+}
+#menu>ul>li>a:hover {    
+    color: white;
+    transition: 0.2s;
+} 
+.boton {
+    background: black;
+    display: inline-block;        
+    padding: 2px;    
+    box-shadow: 0px 2px 3px darkgray;
+ }
+.boton>div {        
+    padding: 0px 30px;
+    border: .4px solid rgba(255,255,255,.3);
+ }
+.boton p{
+   color: white;
+   font-variant: small-caps;
+   font-size: .9em;
+}
+.sombra-imagen{
+    box-shadow: 0px 0px 5px darkgray;
+}
+.flexible {
+    display: flex;
+}
+
+#redes-sociales{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.facebook, .twitter, .google, .youtube {
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    text-indent: -9999px;
+    transition: 0.1s;
+     background-color: #1e4066;
+
+} 
+.twitter {
+    background: url('../images/redes.jpg') 0 5px;
+}
+.facebook {
+    background: url('../images/redes.jpg') -38px 5px;
+}
+.google {
+    background: url('../images/redes.jpg') -76px 5px; 
+}
+.youtube {
+    background: url('../images/redes.jpg') -112px 5px;
+}
+.twitter:hover {
+    background: url('../images/redes.jpg') 0 -38px;
+}
+.facebook:hover {
+    background: url('../images/redes.jpg') -38px -38px;     
+}
+.google:hover {
+    background: url('../images/redes.jpg') -76px -76px;
+}
+.youtube:hover {
+    background: url('../images/redes.jpg') -112px -112px;
+}
+.politicas {
+    text-align: center;
+    border-top: 3px double lightgray;
+    border-bottom: 3px double lightgray;
+    padding: 5px 0;
+    color: darkgray;
+}
+.politicas abbr{
+    cursor: help;
+    border-bottom: 1px dotted lightgray;
+}
+.publicidad {
+   margin: 5px 5px
+}
+.redes-sociales {
+    text-align: left;
+    margin-bottom: 10px;
+}
+#direccion{    
+    text-align: center;
+    color: darkgray;
+    font-size: 0.8em;
+}
+input {
+    box-shadow: 2px 5px 25px gray; 
+}
+#cabecera {
+    min-height: 800px;
+    background-image: url('../images/las_glorias.png');
+    background-size: cover;
+}
+#navbar {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #000000 100%);
+}
+.informacion {
+    border: 8px solid white; 
+    box-shadow: 0 0 15px grey ;
+}
+.sinaloa {
+    background: #019d92;
+    display: block;
+}
+
+.destinos {
+    background: #692782;
+}
+
+.actividades {
+    background: #f4ad00;
+    display: block;
+}
+
+.biodiversidad {
+    background: #2f8f00; 
+    display: block;
+}
+
+.gas-res {
+    background: #960757;
+    display: block;
+}
+
+.hoteles {
+    background: #009ed7;
+    display: block;
+}
+
+.his-cul {
+    background: #fb691d;
+    display: block;
+}
+
+.infografias {
+    background: #1b1bc7;
+    display: block;
+}
