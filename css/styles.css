@@ -13,10 +13,7 @@ h1{
     width: 920px;
     margin: 0 auto;
 }
-.container-fluid {
-    width: 100%;
-    background-size: cover;
-}
+
 #Encabezado {
     width: 920px;
     height: 180px;
@@ -31,44 +28,20 @@ h1{
 #Contenido {
 
 }
-#Nota-Importante {
+#nota-importante {
     height: 460px;
     width: 450px;
     margin: 20px 0; 
     box-shadow: 0 0 15px grey ;
+   
 }
-#Nota-Importante img{
+#nota-importante img{
     border: 8px solid white;
+    
 }
-#Notas-Secundarias{
-    min-height: 300px;
-    width: 600px;
-    display: inline-block;
-}
-#Notas-Secundarias article{
-    display: flex;
-    background-image: url(../images/separacion-notas.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding-bottom: 60px;
-    margin-bottom: 20px;
-}
-.imagen-nota-secundaria{
-    position: relative;
-}
-
-.imagen-nota-secundaria span{
-    position: absolute;
-    top: 10px;
-    left: -5px;
-    padding: 5px 10px;
-    background-color: lightgray;
-}
-
 .titulo-nota-secundaria{
     line-height: 0.9em;
     font-variant: small-caps;
-
 }
 .intro-nota-secundaria {
 
@@ -143,6 +116,10 @@ h1{
     padding: 2px;    
     box-shadow: 0px 2px 3px darkgray;
  }
+.boton:hover {
+    background: #5d5d5d;
+    transition: .2s;
+}
 .boton>div {        
     padding: 0px 30px;
     border: .4px solid rgba(255,255,255,.3);
@@ -168,7 +145,7 @@ h1{
     height: 58px;
     display: inline-block;
     text-indent: -9999px;
-    transition: 0.1s;
+    transition: 0.5s;
      background-color: #1e4066;
 }
  
@@ -197,16 +174,16 @@ h1{
     background: url('../images/logos/redes.png') -58px -58px;     
 }
 .google:hover{
-    background: url('../images/logos/redes.png') -116px -116px;
+    background: url('../images/logos/redes.png') -118px -60px;
 }
 .instagram:hover {
-    background: url('../images/logos/redes.png') -174px -174px;
+    background: url('../images/logos/redes.png') -174px -60px;
 }
 .vimeo:hover{
-    background: url('../images/logos/redes.png') -232px -232px;
+    background: url('../images/logos/redes.png') -232px -60px;
 }
 .youtube:hover{
-    background: url('../images/logos/redes.png') -290px -290px;
+    background: url('../images/logos/redes.png') -290px -60px;
 }
 .politicas {
     text-align: center;
@@ -226,12 +203,6 @@ h1{
     background-image: url('../images/las_glorias.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-}
-#navbar {
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #000000 100%);
 }
 .informacion {
     border: 8px solid white; 
@@ -305,30 +276,80 @@ h2 {
     display: block;
     box-shadow: 0 0 15px grey;
     margin-right: 10px;
+    margin-left: -10px;
+
 }
 #justify {
    text-align: justify;
-    padding: 0 20px 20px 0;
+   padding: 0 20px 20px 0;
+   font-variant: small-caps;
+   font-size: 16px;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   margin-left: 40px;
+   margin-right: -53px;
 }
 #imagenes {
-    margin-left: 10px
+    width: 555px;
+    margin-left: 38px;
+    margin-left: -10px;
 }
-
-
 .publicidad {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 12px;
     margin-left: 167px    
 }
-
 .img {
     margin-left: 100px;
     margin-top: 20px;
 }
-
 .xd {
     margin-top: 0;
     font-size: 12px;
     margin-left: 743px;
+}
+#yolo {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    padding: 5px 10px;
+    background-color: lightgray;
+}
+.img-prin {
+    position: absolute;
+    margin-top: -455px;
+    margin-left: -5px;
+    padding: 5px 10px;
+    background-color:beige;
+    box-shadow: 3px 2px 25px black;
+}
+#jfk {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#loquesea {
+    position: absolute;
+    margin-top: -350px;
+    margin-left: -10px;
+    padding: 5px 10px;
+    background-color: beige;
+    box-shadow: 3px 2px 25px black;
+}
+.justify {
+    text-align: justify;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif; 
+}
+
+#separacion {
+    margin-left: 60px;
+    margin-bottom: 30px
+}
+
+.yo {
+    text-align: center;
+    color: #d37303;
+    font-size: 32px;
+    line-height: 40px;
 }
