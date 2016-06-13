@@ -8,32 +8,30 @@ h1{
     font-size: 32px;
     line-height: 40px;
 }
-
+h2 {
+    font-size: 30px;
+}
 .container {
     width: 920px;
     margin: 0 auto;
 }
-
 #Encabezado {
     width: 920px;
     height: 180px;
     display: inline-flex;
     align-content: flex-start;
-    margin-bottom: 10px;
-   
+    margin-bottom: 10px; 
 }
 #Encabezado figure {
     margin: 0;
 }
 #Contenido {
-
 }
 #nota-importante {
     height: 460px;
     width: 450px;
     margin: 20px 0; 
     box-shadow: 0 0 15px grey ;
-   
 }
 #nota-importante img{
     border: 8px solid white;
@@ -139,6 +137,7 @@ h1{
 #redes-sociales{
    text-align: center;
     padding: 21px;
+    cursor: help;
 }
 .facebook, .twitter, .google, .instagram, .youtube, .vimeo {
     width: 58px;
@@ -265,10 +264,6 @@ h1{
 .info {
     background-color: #12a89d
 }
-
-h2 {
-    font-size: 30px;
-}
 .galeria {
     background: wheat;
     text-align: justify;
@@ -326,7 +321,6 @@ h2 {
 #jfk {
     padding-left: 10px;
     padding-right: 10px;
-
 }
 #loquesea {
     position: absolute;
